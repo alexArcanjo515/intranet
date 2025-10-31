@@ -1,0 +1,55 @@
+# System & editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+/.idea/
+/.vscode/
+
+# Logs & runtime
+*.log
+/storage/
+/tmp/
+/sessions/
+/cache/
+
+# Environment & secrets
+.env
+.env.*
+/.env.local
+/.env.production
+/.env.testing
+/portal/config/db.local.php
+
+# Dependencies
+/vendor/
+/node_modules/
+/composer.phar
+/package-lock.json
+/yarn.lock
+/pnpm-lock.yaml
+
+# Build artifacts
+/dist/
+/build/
+/.parcel-cache/
+/.next/
+/.nuxt/
+/.astro/
+
+# Coverage & test cache
+/coverage/
+.phpunit.result.cache
+
+# Uploads (kept out of VCS)
+/uploads/**
+!/uploads/.gitkeep
+
+# SQLite databases (if used)
+*.sqlite
+*.sqlite3
+
+# OS/IDE files in nested folders
+**/.DS_Store
+**/Thumbs.db
