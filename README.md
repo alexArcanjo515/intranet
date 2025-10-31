@@ -157,17 +157,19 @@ Obs.: Todos os POSTs exigem `csrf` válido. RBAC checa `roles` e `perms` na sess
   - Verifique permissões de pasta em `/uploads/*`
 
 ## Capturas de Tela
-- Portal (Home): `assets/screenshots/portal-home.png`
-- Helpdesk (Tickets): `assets/screenshots/helpdesk-tickets.png`
-- RH (Inbox Solicitações): `assets/screenshots/rh-inbox.png`
-- RH (Publicar): `assets/screenshots/rh-publish.png`
+- Portal (Home): `assets/screenshots/home.png`
+- Helpdesk (Tickets): `assets/screenshots/HELPFESK-RELATORIO.png`
+- RH (Inbox Solicitações): `assets/screenshots/HELPDESK-ANALISTA.png`
+- RH (Publicar): `assets/screenshots/RH-DADOS PESSOAIS.png`
+- RH (Publicar): `assets/screenshots/RH-PAGAMENTO.png`
 
 Para adicionar as imagens, coloque-as na pasta `assets/screenshots/` com os nomes acima e elas serão referenciadas aqui. Exemplos de embedded (Git viewers):
 
-![Portal Home](assets/screenshots/portal-home.png)
-![Helpdesk Tickets](assets/screenshots/helpdesk-tickets.png)
-![RH Inbox](assets/screenshots/rh-inbox.png)
-![RH Publicar](assets/screenshots/rh-publish.png)
+![Portal Home](assets/screenshots/home.png)
+![Helpdesk Tickets](assets/screenshots/HELPFESK-RELATORIO.png)
+![RH Inbox](assets/screenshots/HELPDESK-ANALISTA.png)
+![RH Publicar](assets/screenshots/RH-DADOS PESSOAIS.png)
+![RH Publicar](assets/screenshots/RH-PAGAMENTO.png)
 
 ## Diagrama de Arquitetura
 Fluxo simplificado (ASCII):
