@@ -79,6 +79,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
               <input type="password" name="password" class="form-control" required autocomplete="current-password">
             </div>
             <button class="btn btn-primary w-100">Entrar</button>
+            <a href="../index.php" class="btn btn-outline-primary w-100 mt-2">Área Admin</a>
           </form>
         </div>
       </div>

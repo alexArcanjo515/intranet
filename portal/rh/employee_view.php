@@ -18,7 +18,10 @@ $id = isset($_GET['id']) ? (int)$_GET['id'] : 0;
     <title>RH - Dossiê do Colaborador #<?= (int)$id ?></title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
-    <style>.glass{border:1px solid rgba(255,255,255,.08);background:rgba(17,25,40,.35);backdrop-filter:blur(8px)}</style>
+    <style>
+      .glass{border:1px solid rgba(255,255,255,.08);background:rgba(17,25,40,.35);backdrop-filter:blur(8px)}
+      .tab-content > .tab-pane{margin-top:20px}
+    </style>
   </head>
   <body class="min-vh-100 d-flex flex-column">
     <nav class="navbar navbar-expand-lg glass">
@@ -137,7 +140,7 @@ $id = isset($_GET['id']) ? (int)$_GET['id'] : 0;
             </div>
           </div>
         </div>
-        <div class="tab-pane fade" id="pane-salary" role="tabpanel">
+        <div class="tab-pane fade" id="pane-salary" role="tabpanel" style="margin-top:-350px;position: absolute; width: 60%; left: 20%;">
           <div class="card glass">
             <div class="card-body">
               <div class="d-flex justify-content-between align-items-center mb-2">
@@ -168,7 +171,7 @@ $id = isset($_GET['id']) ? (int)$_GET['id'] : 0;
             </div>
           </div>
         </div>
-        <div class="tab-pane fade" id="pane-pay" role="tabpanel">
+        <div class="tab-pane fade" id="pane-pay" role="tabpanel" style="margin-top:-400px; position: absolute; width: 60%; left: 20%;">
           <div class="card glass">
             <div class="card-body">
               <div class="d-flex justify-content-between align-items-center mb-2">

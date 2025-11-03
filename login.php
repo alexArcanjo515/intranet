@@ -100,23 +100,23 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
               <label for="username" class="form-label">Usuário</label>
               <div class="input-group">
                 <span class="input-group-text"><i class="bi bi-person"></i></span>
-                <input type="text" class="form-control" id="username" name="username" placeholder="admin" required autofocus>
+                <input type="text" class="form-control" id="username" name="username" placeholder="username" required autofocus>
               </div>
             </div>
             <div class="mb-3">
               <label for="password" class="form-label">Senha</label>
               <div class="input-group">
                 <span class="input-group-text"><i class="bi bi-lock"></i></span>
-                <input type="password" class="form-control" id="password" name="password" placeholder="admin" required>
+                <input type="password" class="form-control" id="password" name="password" placeholder="password" required>
               </div>
             </div>
             <button class="btn btn-primary w-100" type="submit">
               <i class="bi bi-box-arrow-in-right me-1"></i> Entrar
             </button>
+            <a href="./portal/" class="btn btn-outline-primary w-100 mt-2">Aceder ao portal</a>
           </form>
         </div>
       </div>
-      <p class="text-center text-secondary mt-3" style="font-size: .9rem;">Dica: usuário e senha são <code>admin</code>.</p>
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
